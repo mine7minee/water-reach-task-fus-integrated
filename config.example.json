@@ -1,0 +1,33 @@
+{
+  "tinkerforge": {
+    "host": "auto",
+    "port": 4223,
+    "uid_piezo": "",
+    "uid_relay": "",
+    "uid_touch": ""
+  },
+  "relay_channels": {
+    "blue_led": 1,
+    "valve": 2,
+    "green_led": 3
+  },
+  "task": {
+    "total_trials": 50,
+    "trial_duration_s": 15.0,
+    "led_start_s": 3.0,
+    "led_duration_s": 6.0,
+    "valve_time_s": 6.0,
+    "valve_duration_s": 0.3,
+    "inter_trial_interval_s": 0.5,
+    "beep_frequency_hz": 1000,
+    "beep_volume": 5,
+    "beep_duration_ms": 500,
+    "lick_electrode": 0,
+    "lick_poll_interval_s": 0.05
+  },
+  "serial": {
+    "dispenser_port": "",
+    "camera_port": ""
+  },
+  "output_dir": ""
+}
